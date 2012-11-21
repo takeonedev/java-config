@@ -1,12 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
 	<wb-module deploy-name="java-config">
+		<property name="context-root" value="java-config"/>
 		<wb-resource deploy-path="/" source-path="/src/main/webapp"/>
 		<wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
 		<wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
 		<wb-resource deploy-path="/WEB-INF/classes" source-path="/src/test/java"/>
 		<wb-resource deploy-path="/WEB-INF/classes" source-path="/src/test/resources"/>
 		<property name="java-output-path" value="target/classes"/>
-        <property name="context-root" value="java-config"/>
 		<wb-resource deploy-path="/WEB-INF/classes" source-path="src/main/resources"/>
 		<wb-resource deploy-path="/WEB-INF/classes" source-path="src/main/java"/>
 		<wb-resource deploy-path="/" source-path="src/main/webapp"/>
@@ -89,6 +90,18 @@
 			<dependency-type>uses</dependency-type>
 		</dependent-module>
 		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/takeone/.gradle/caches/artifacts-14/filestore/org.slf4j/slf4j-api/1.7.1/jar/1a508b0ecd360507a39a4dbaedd1aa4750741f6d/slf4j-api-1.7.1.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/takeone/.gradle/caches/artifacts-14/filestore/cglib/cglib/2.2.2/jar/a47a971686474124562bdd4a7ccbd8ac8c3e8b11/cglib-2.2.2.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/takeone/.gradle/caches/artifacts-14/filestore/asm/asm/3.3.1/jar/1d5f20b4ea675e6fab6ab79f1cd60ec268ddc015/asm-3.3.1.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/takeone/.gradle/caches/artifacts-14/filestore/javax.inject/javax.inject/1/jar/6975da39a7040257bd51d21a231b76c915872d38/javax.inject-1.jar">
+			<dependency-type>uses</dependency-type>
+		</dependent-module>
+		<dependent-module deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//home/takeone/.gradle/caches/artifacts-14/filestore/cglib/cglib-nodep/2.2.2/jar/d456bb230c70c0b95c76fb28e429d42f275941/cglib-nodep-2.2.2.jar">
 			<dependency-type>uses</dependency-type>
 		</dependent-module>
 	</wb-module>
