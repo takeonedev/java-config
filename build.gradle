@@ -6,7 +6,7 @@ targetCompatibility=1.7
 
 description='java-config'
 group = 'com.takeone.webapp'
-version = ''
+version = '1.0.0'
 
 repositories {
 	mavenRepo url: 'http://maven.springframework.org/release'
@@ -18,8 +18,10 @@ repositories {
 	mavenRepo url: 'http://snapshots.repository.codehaus.org'
 }
 
-ext.springframeworkVersion='3.1.2.RELEASE'
-ext.tilesVersion='2.2.2'
+ext {
+	springframeworkVersion='3.1.2.RELEASE'
+	tilesVersion='2.2.2'	
+}
 
 dependencies() {
 	compile("org.springframework:spring-orm:$springframeworkVersion")
